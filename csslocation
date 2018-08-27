@@ -1,0 +1,39 @@
+.bg-weixin {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -10px -92px;
+}
+
+.bg-qq {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -55px -92px;
+}
+
+.bg-weibo {
+    width: 25px; height: 25px;
+    background: url('css_sprites.png') -100px -92px;
+}
+
+.bg-rocket {
+    width: 60px; height: 62px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-archive {
+    width: 60px; height: 62px;
+    background: url('css_sprites.png') -90px -10px;
+}
+
+.bg-person {
+    width: 60px; height: 62px;
+    background: url('css_sprites.png') -170px -10px;
+}
+
+.bg-user {
+    width: 13px; height: 13px;
+    background: url('css_sprites.png') -190px -92px;
+}
+
+.bg-next {
+    width: 25px; height: 23px;
+    background: url('css_sprites.png') -145px -92px;
+}

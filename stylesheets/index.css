@@ -1,0 +1,33 @@
+.nav-header {
+	min-height: 40px !important;
+	margin-bottom: 0 !important;
+}
+
+.bg-weixin {
+	display: block;
+	float: right;
+	margin: 0.5em;
+    width: 25px; height: 25px;
+    background: url('../imgs/css_sprites.png') -10px -92px;
+}
+
+.bg-qq {
+	display: block;
+	float: right;
+	margin: 0.5em;
+    width: 25px; height: 25px;
+    background: url('../imgs/css_sprites.png') -55px -92px;
+}
+
+.bg-weibo {
+	display: block;
+	float: right;
+	margin: 0.5em;
+    width: 25px; height: 25px;
+    background: url('../imgs/css_sprites.png') -100px -92px;
+}
+
+.hot-line {
+	color: #1DB176;
+	line-height: 40px;
+}
