@@ -31,3 +31,19 @@
 	color: #1DB176;
 	line-height: 40px;
 }
+
+.navbar-default {
+	background-color: #1DB176 !important;
+	color: #fff;
+	border-color: #1DB176 !important;
+	margin-bottom: 0 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff !important;
+}
+
+ul {
+	float: right !important;
+	font-size: 1.2em;
+}
