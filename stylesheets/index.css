@@ -54,3 +54,21 @@ ul {
 	font-size: 1.1em;
 	letter-spacing: 0.3em;
 }
+
+.bg-rocket {
+	display: block;
+    width: 60px; height: 62px;
+    background: url('../imgs/css_sprites.png') -10px -10px;
+}
+
+.bg-archive {
+	display: block;
+    width: 60px; height: 62px;
+    background: url('../imgs/css_sprites.png') -90px -10px;
+}
+
+.bg-person {
+	display: block;
+    width: 60px; height: 62px;
+    background: url('../imgs/css_sprites.png') -170px -10px;
+}
