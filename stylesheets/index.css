@@ -58,17 +58,71 @@ ul {
 .bg-rocket {
 	display: block;
     width: 60px; height: 62px;
+    margin: 0 auto;
     background: url('../imgs/css_sprites.png') -10px -10px;
 }
 
 .bg-archive {
 	display: block;
     width: 60px; height: 62px;
+    margin: 0 auto;
     background: url('../imgs/css_sprites.png') -90px -10px;
 }
 
 .bg-person {
 	display: block;
     width: 60px; height: 62px;
+    margin: 0 auto;
     background: url('../imgs/css_sprites.png') -170px -10px;
+}
+
+.bg-user {
+	display: block;
+    width: 13px; height: 13px;
+    background: url('../imgs/css_sprites.png') -190px -92px;
+    float: left;
+    margin: 3px;
+}
+
+.row {
+	padding-top: 8em;
+}
+
+.model-1 {
+	width: 100%;
+}
+
+.number {
+	color: #21AF75;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+p {
+	width: 13em;
+	color: #B1B1B1;
+	margin: 0 auto !important;
+}
+
+b {
+	display: block;
+	width: 2em;
+	margin: 2em auto;
+}
+
+.describe {
+	display: block;
+	color: #B1B1B1;
+	margin: 0.5em 0;
+}
+
+.count {
+	width: 100%;
+	padding-top: 3em;
+}
+
+.count div {
+	width: 10em;
+	margin: 0 auto;
+	padding-bottom: 1em;
 }
