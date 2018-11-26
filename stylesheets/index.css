@@ -1,7 +1,3 @@
-html {
-	background-color: #E6E6E6;
-}
-
 .nav-header {
 	min-height: 40px !important;
 	margin-bottom: 0 !important;
@@ -90,7 +86,6 @@ ul {
 
 .row {
 	padding-top: 8em;
-	padding-bottom: 8em;
 }
 
 .model-1 {
@@ -105,7 +100,7 @@ ul {
 
 p {
 	width: 13em;
-	color: #B1B1B1;
+	color: grey;
 	margin: 0 auto !important;
 }
 
@@ -117,7 +112,7 @@ p {
 
 .describe {
 	display: block;
-	color: #B1B1B1;
+	color: grey;
 	margin: 0.5em 0;
 }
 
@@ -138,4 +133,78 @@ p {
 
 h4 {
 	text-align: center;
+	font-weight: bold !important;
+	padding: 2em 0 2em 0;
+}
+
+.study-down {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.model-2 {
+	width: 100%;
+}
+
+.circle {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 10px lightgrey;
+	float: left;
+}
+
+.circle span {
+	display: block;
+	font-size: 1.25em;
+	color: #1DB176;
+	line-height: 50px;
+	text-align: center;
+}
+
+.study-text {
+	width: 10em;
+	position: relative;
+	top: 0.5rem;
+}
+
+.bg-next {
+	display: block;
+    width: 25px; height: 23px;
+    background: url('../imgs/css_sprites.png') -145px -92px;
+    float: right;
+    position: relative;
+    bottom: 2em;
+}
+
+.student-name {
+	display: block;
+}
+
+.model-3 {
+	width: 90%;
+	height: 22em;
+	box-shadow: 0px 1px 10px lightgrey;
+}
+
+.model-3 img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 1.5em;
+}
+
+.model-3 b {
+	display: block;
+	width: 8em;
+	margin: 1.5em auto;
+}
+
+.enterprise {
+	width: 100%;
+}
+
+.enterprise img {
+	box-shadow: 0px 1px 10px lightgrey;
 }
