@@ -139,7 +139,6 @@ h4 {
 
 .study-down {
 	padding-top: 4em;
-	padding-bottom: 4em;
 }
 
 .model-2 {
@@ -206,5 +205,32 @@ h4 {
 }
 
 .enterprise img {
+	box-shadow: 0px 1px 10px lightgrey;
+}
+
+.student-slide {
+	width: 4em;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+
+.slide-1 {
+	display: block;
+	width: 9px;
+	height: 9px;
+	border-radius: 5em;
+	background-color: #1DB176;
+	float: left;
+	margin: 2px;
+}
+
+.slide-2 {
+	display: block;
+	width: 9px;
+	height: 9px;
+	border-radius: 5em;
+	background-color: #FFFFFF;
+	float: left;
+	margin: 2px;
 	box-shadow: 0px 1px 10px lightgrey;
 }
