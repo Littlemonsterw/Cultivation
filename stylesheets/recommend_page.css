@@ -119,6 +119,12 @@
 .breadcrumb {
 	background-color: unset !important;
 	margin-top: 20px;
+	padding: 8px 0 !important;
+}
+
+.breadcrumb>li+li:before {
+	color: #000000 !important;
+	content: ">" !important;
 }
 
 .breadcrumb a {
@@ -133,4 +139,9 @@
 .breadcrumb a:active {
 	color: #1DB176;
 	text-decoration:none;
+}
+
+.company-list {
+	width: 6em;
+	height: 15em;
 }
