@@ -115,3 +115,22 @@
 .hand img {
 	width: 100%;
 }
+
+.breadcrumb {
+	background-color: unset !important;
+	margin-top: 20px;
+}
+
+.breadcrumb a {
+	color: black;
+}
+
+.breadcrumb a:hover {
+	color: #1DB176;
+	text-decoration:none;
+}
+
+.breadcrumb a:active {
+	color: #1DB176;
+	text-decoration:none;
+}
