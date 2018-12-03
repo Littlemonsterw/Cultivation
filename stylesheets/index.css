@@ -37,27 +37,38 @@
 	color: #fff;
 	border-color: #1DB176 !important;
 	margin-bottom: 0 !important;
-	padding: 1em;
 	border-radius: 0 !important;
 }
 
-.navbar-nav>li>a {
-	color: #fff !important;
-	/*padding-right: 0;*/
+.logo {
+	display: block;
+	float: left;
+	position: relative;
+	top: 1em;
 }
 
-/*.navbar-nav li:hover {
-	border-bottom: 3px solid #FFFFFF;
-}*/
-
-.navbar-collapse {
-	padding-right: 0 !important;
+@media (min-width: 768px) {
+	#collapse-nav ul {
+		float: right;
+	}
 }
 
-#collapse ul {
-	float: right !important;
+#collapse-nav ul {
 	font-size: 1.1em;
 	letter-spacing: 0.3em;
+	text-align: center;
+}
+
+#collapse-nav li {
+	padding: 1em 0;
+}
+
+#collapse-nav li>a {
+	color: #FFFFFF;
+}
+
+#collapse-nav li:hover {
+	border-bottom: 3px solid #FFFFFF;
 }
 
 .bg-rocket {
@@ -148,6 +159,8 @@ h4 {
 
 .model-2 {
 	width: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .circle {
@@ -179,8 +192,6 @@ h4 {
     width: 25px; height: 23px;
     background: url('../imgs/css_sprites.png') -145px -92px;
     float: right;
-    position: relative;
-    bottom: 2em;
 }
 
 .student-name {
@@ -188,7 +199,6 @@ h4 {
 }
 
 .model-3 {
-	width: 90%;
 	height: 22em;
 	box-shadow: 0px 1px 10px lightgrey;
 }
@@ -236,10 +246,10 @@ h4 {
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
+	display: flex;
 }
 
 .img-box {
-	width: 18.5%;
 	height: 10em;
 	box-shadow: 0px 1px 10px lightgrey;
 	float: left;

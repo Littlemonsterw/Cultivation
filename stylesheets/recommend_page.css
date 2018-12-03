@@ -37,23 +37,38 @@
 	color: #fff;
 	border-color: #1DB176 !important;
 	margin-bottom: 0 !important;
-	padding: 1em;
 	border-radius: 0 !important;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #fff !important;
-	/*padding-right: 0;*/
+.logo {
+	display: block;
+	float: left;
+	position: relative;
+	top: 1em;
 }
 
-.navbar-collapse {
-	padding-right: 0 !important;
+@media (min-width: 768px) {
+	#collapse-nav ul {
+		float: right;
+	}
 }
 
-#collapse ul {
-	float: right !important;
+#collapse-nav ul {
 	font-size: 1.1em;
 	letter-spacing: 0.3em;
+	text-align: center;
+}
+
+#collapse-nav li {
+	padding: 1em 0;
+}
+
+#collapse-nav li>a {
+	color: #FFFFFF;
+}
+
+#collapse-nav li:hover {
+	border-bottom: 3px solid #FFFFFF;
 }
 
 .foot {
