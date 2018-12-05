@@ -186,6 +186,8 @@ table {
 	box-shadow: 0px 1px 10px lightgrey;
 	word-wrap: break-word;
 	word-break: break-all;
+	letter-spacing: 0.5px;
+	margin-bottom: 4em !important;
 }
 
 td {
@@ -194,7 +196,7 @@ td {
 
 span:first-child {
 	color: grey;
-	margin-right: 1rem;
+	margin-right: 1px;
 }
 
 tr:last-child {
@@ -226,4 +228,34 @@ b {
 .money {
 	display: block;
 	float: right;
+}
+
+.col-md-4:hover .hover-panel {
+	display: block;
+}
+
+.hover-panel {
+	display: none;
+	width: 350px;
+	height: 435px;
+	color: #FFFFFF;
+	background-color: rgba(22,22,22,0.7);
+	position: absolute;
+	top: 0.1rem;
+	font-size: 1.2em;
+}
+
+.hover-panel span {
+	display: block;
+	color: #FFFFFF;
+	width: 5em;
+	margin: 0 auto;
+	padding-top: 6em;
+}
+
+.hover-panel p {
+	width: 80%;
+	text-indent: 2em;
+	margin: 0 auto;
+	padding-top: 2em;
 }
