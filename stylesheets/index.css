@@ -47,12 +47,6 @@
 	top: 1em;
 }
 
-@media (min-width: 768px) {
-	#collapse-nav ul {
-		float: right;
-	}
-}
-
 #collapse-nav ul {
 	font-size: 1.1em;
 	letter-spacing: 0.3em;
@@ -247,28 +241,15 @@ h4 {
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
-	display: flex;
-}
-
-.img-box {
-	height: 10em;
-	box-shadow: 0px 1px 10px lightgrey;
-	float: left;
-	margin-right: 1em;
+	/*display: flex;*/
 }
 
 .enterprise img {
 	display: block;
-	width: 175px;
-	height: 65px;
-	margin: 0 auto;
-	position: relative;
-	top: 2.5em;
+	padding: 2em;
+	margin: 0 1.2em;
+	box-shadow: 0px 1px 10px lightgrey;
 }
-
-/*.links {
-	margin-bottom: 3em;
-}*/
 
 .links-ad {
 	color: grey;
@@ -330,4 +311,82 @@ h4 {
 	width: 38em;
 	margin: 0 auto;
 	font-size: 0.5em;
+}
+
+.login {
+	position: absolute;
+	bottom: 0.7em;
+}
+
+.login a {
+	text-decoration: none;
+	color: unset;
+}
+
+.login a:hover {
+	text-decoration: none;
+	color: #1DB176;
+}
+
+.in {
+	padding-right: 0.5em;
+	border-right: 1px solid #1DB176;
+}
+
+.up {
+	padding-left: 0.3em;
+}
+
+@media (min-width: 768px) {
+	#collapse-nav ul {
+		float: right;
+	}
+
+	.info {
+		visibility: hidden;
+	}
+
+	.login {
+		margin-left: 82%;
+		visibility: visible;
+	}
+}
+
+@media (min-width: 992px) {
+	.enterprise {
+	margin: 0 1.2em;
+	}
+
+	.info {
+		visibility: visible;
+	}
+	
+	.login {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 768px) {
+	.enterprise img {
+		margin: 1em auto;
+	}
+
+	.model-3 {
+		margin-bottom: 1em;
+	}
+}
+
+@media (max-width: 700px) {
+	.info {
+		visibility: hidden;
+	}
+
+	.login {
+		margin-left: 70%;
+		visibility: visible;
+	}
+
+	.logo {
+		top: 0;
+	}
 }

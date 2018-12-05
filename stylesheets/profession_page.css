@@ -47,12 +47,6 @@
 	top: 1em;
 }
 
-@media (min-width: 768px) {
-	#collapse-nav ul {
-		float: right;
-	}
-}
-
 #collapse-nav ul {
 	font-size: 1.1em;
 	letter-spacing: 0.3em;
@@ -236,8 +230,8 @@ b {
 
 .hover-panel {
 	display: none;
-	width: 350px;
-	height: 435px;
+	width: 93%;
+	padding-bottom: 5.5em;
 	color: #FFFFFF;
 	background-color: rgba(22,22,22,0.7);
 	position: absolute;
@@ -258,4 +252,68 @@ b {
 	text-indent: 2em;
 	margin: 0 auto;
 	padding-top: 2em;
+}
+
+.login {
+	position: absolute;
+	bottom: 0.7em;
+}
+
+.login a {
+	text-decoration: none;
+	color: unset;
+}
+
+.login a:hover {
+	text-decoration: none;
+	color: #1DB176;
+}
+
+.in {
+	padding-right: 0.5em;
+	border-right: 1px solid #1DB176;
+}
+
+.up {
+	padding-left: 0.3em;
+}
+
+@media (min-width: 768px) {
+	#collapse-nav ul {
+		float: right;
+	}
+
+	.info {
+		visibility: hidden;
+	}
+
+	.login {
+		margin-left: 82%;
+		visibility: visible;
+	}
+}
+
+@media (min-width: 992px) {
+	.info {
+		visibility: visible;
+	}
+	
+	.login {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 700px) {
+	.info {
+		visibility: hidden;
+	}
+
+	.login {
+		margin-left: 70%;
+		visibility: visible;
+	}
+
+	.logo {
+		top: 0;
+	}
 }

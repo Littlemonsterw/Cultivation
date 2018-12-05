@@ -47,12 +47,6 @@
 	top: 1em;
 }
 
-@media (min-width: 768px) {
-	#collapse-nav ul {
-		float: right;
-	}
-}
-
 #collapse-nav ul {
 	font-size: 1.1em;
 	letter-spacing: 0.3em;
@@ -226,25 +220,17 @@ ul.list-content {
 }
 
 .company-icon {
-	width: 13em;
-	height: inherit;
 	float: left;
-}
-
-.company-icon img {
-	display: block;
-	margin: 4em auto;
+	padding: 7% 3% 0 5%;
 }
 
 .company-basicinfo p {
-	float: left;
-	width: 45em;
-	line-height: 2em;
-	margin: 2em auto;
+	width: 96%;
+	padding-top: 3em;
 }
 
 .company-maininfo p {
-	width: 55em;
+	width: 90%;
 	margin: 2em auto;
 	text-indent: 2em;
 	line-height: 2em;
@@ -258,4 +244,93 @@ iframe {
 	margin-bottom: 8%;
 	border: 0;
 	box-shadow: 0px 1px 10px grey;
+}
+
+.login {
+	position: absolute;
+	bottom: 0.7em;
+}
+
+.login a {
+	text-decoration: none;
+	color: unset;
+}
+
+.login a:hover {
+	text-decoration: none;
+	color: #1DB176;
+}
+
+.in {
+	padding-right: 0.5em;
+	border-right: 1px solid #1DB176;
+}
+
+.up {
+	padding-left: 0.3em;
+}
+
+@media (min-width: 768px) {
+	#collapse-nav ul {
+		float: right;
+	}
+
+	.info {
+		visibility: hidden;
+	}
+
+	.login {
+		margin-left: 82%;
+		visibility: visible;
+	}
+}
+
+@media (min-width: 992px) {
+	.info {
+		visibility: visible;
+	}
+	
+	.login {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 700px) {
+	.info {
+		visibility: hidden;
+	}
+
+	.login {
+		margin-left: 70%;
+		visibility: visible;
+	}
+
+	.company-basicinfo {
+		height: 13.5em;
+	}
+
+	.company-basicinfo p {
+		padding-left: 1em !important;
+		padding-top: 1em;
+	}
+
+	.logo {
+		top: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.company-list {
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	iframe {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.company-basicinfo p {
+	    padding-left: 30%;
+    }
 }
