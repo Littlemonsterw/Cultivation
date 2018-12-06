@@ -110,7 +110,6 @@ body {
 }
 
 .note {
-	width: 100%;
 	border-top: 2px solid #32C086 !important;
 	min-height: 0 !important;
 }
@@ -118,7 +117,7 @@ body {
 .note span {
 	color: unset !important;
 	display: block;
-	width: 38em;
+	width: 35%;
 	margin: 0 auto !important;
 	font-size: 0.5em;
 }
@@ -327,5 +326,11 @@ b {
 
 	.logo {
 		top: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.note span {
+		width: 65%;
 	}
 }

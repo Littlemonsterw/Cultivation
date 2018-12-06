@@ -110,14 +110,13 @@ body {
 }
 
 .note {
-	width: 100%;
 	border-top: 2px solid #32C086 !important;
 	min-height: 0 !important;
 }
 
 .note span {
 	display: block;
-	width: 38em;
+	width: 35%;
 	margin: 0 auto;
 	font-size: 0.5em;
 }
@@ -344,4 +343,8 @@ iframe {
 	.company-basicinfo p {
 	    padding-left: 30%;
     }
+
+    .note span {
+		width: 65%;
+	}
 }

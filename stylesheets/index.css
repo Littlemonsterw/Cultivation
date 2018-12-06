@@ -308,14 +308,13 @@ h4 {
 }
 
 .note {
-	width: 100%;
 	border-top: 2px solid #32C086 !important;
 	min-height: 0 !important;
 }
 
 .note span {
 	display: block;
-	width: 38em;
+	width: 35%;
 	margin: 0 auto;
 	font-size: 0.5em;
 }
@@ -375,6 +374,10 @@ h4 {
 	.study-text {
 		margin-left: 2em !important;
 		top: 1rem;
+	}
+
+	.note span {
+		width: 65%;
 	}
 }
 
