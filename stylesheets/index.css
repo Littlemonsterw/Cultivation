@@ -1,5 +1,6 @@
 body {
 	background-color: #FAFAFA !important;
+	overflow-x: hidden;
 }
 
 .nav-header {
@@ -349,21 +350,11 @@ h4 {
 	}
 
 	.info {
-		visibility: hidden;
+		visibility: visible;
 	}
 
 	.login {
 		margin-left: 82%;
-		visibility: visible;
-	}
-}
-
-@media (min-width: 992px) {
-	.info {
-		visibility: visible;
-	}
-	
-	.login {
 		visibility: hidden;
 	}
 }
@@ -387,7 +378,7 @@ h4 {
 	}
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
 	.info {
 		visibility: hidden;
 	}
@@ -413,5 +404,21 @@ h4 {
 @media (min-width: 768px) and (max-width: 992px) {
 	.enterprise img{
 	    margin: 1em auto;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 766px) {
+	.info {
+		visibility: visible;
+	}
+
+	.login {
+		visibility: hidden;
+	}
+}
+
+@media (width: 768px) {
+	.study-step {
+		width: 50% !important;
 	}
 }
