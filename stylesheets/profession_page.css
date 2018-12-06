@@ -1,3 +1,7 @@
+body {
+	background-color: #FAFAFA !important;
+}
+
 .nav-header {
 	min-height: 40px !important;
 	margin-bottom: 0 !important;
@@ -182,6 +186,12 @@ table {
 	word-break: break-all;
 	letter-spacing: 0.5px;
 	margin-bottom: 4em !important;
+	background-color: #FFFFFF !important;
+	border-radius: 1rem;
+}
+
+.td1 {
+	border-top: 0 !important;
 }
 
 td {
@@ -237,6 +247,7 @@ b {
 	position: absolute;
 	top: 0.1rem;
 	font-size: 1.2em;
+	border-radius: 1rem;
 }
 
 .hover-panel span {
